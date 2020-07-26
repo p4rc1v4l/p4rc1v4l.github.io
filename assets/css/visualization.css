@@ -1,0 +1,57 @@
+.page_main_header {
+    color: #5191fd;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.page_menu_col {
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+.main_visualization_img {
+    margin: 5px;
+}
+
+.summary_header {
+    margin: 15px;
+    color: #5191fd;
+}
+
+.summary_data {
+    background: lightgray;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.visualization_imgs {
+    background: lightgray;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.main_paragraph_data {
+    margin-top: 10px;
+}
+
+.main_paragraph_data p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table_data {
+    margin: 20px;
+}
+
+.comparison_data {
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.visualization_paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
