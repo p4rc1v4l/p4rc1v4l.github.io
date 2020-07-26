@@ -55,3 +55,17 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
+.media_menu {
+    visibility: hidden;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        visibility: hidden;
+    }
+
+    .media_menu {
+        visibility: visible;
+    }
+}

@@ -14,25 +14,52 @@
   <div class="container">
     <div class="row header_row">
       <div class="col-md-6">
-        <h1 class="page_main_header">Latitude vs. Weather</h1>
+          <h1 class = "page_main_header">Latitude vs. Weather</h1>
       </div>
       <div class="col-md-6 page_menu_col">
-        <ul class="nav justify-content-center nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="visualization_1.html">Visualization</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="comparison.html">Comparison</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="data.html">Data</a>
-          </li>
-        </ul>
+          <nav class="navbar">
+          <ul class="nav justify-content-center nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Visualizations
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="visualization_1.html">Latitude vs. Cloudiness</a>
+                      <a class="dropdown-item" href="visualization_2.html">Latitude vs. Humidity</a>
+                      <a class="dropdown-item" href="visualization_3.html">Latitude vs. Temperature</a>
+                      <a class="dropdown-item" href="visualization_4.html">Latitude vs. Wind Speed</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="data.html">Data</a>
+              </li>
+          </ul>
+          </nav>
+          <div class="dropdown nav justify-content-center nav-pills media_menu">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Home</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item disabled" href="#">Visualizations</a>
+                <a class="dropdown-item" href="#">  Latitude vs. Cloudiness</a>
+                <a class="dropdown-item" href="#">  Latitude vs. Humidity</a>
+                <a class="dropdown-item" href="#">  Latitude vs. Temperature</a>
+                <a class="dropdown-item" href="#">  Latitude vs. Wind Speed</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Comparison</a>
+                <a class="dropdown-item" href="#">Data</a>
+              </div>
+            </div>
       </div>
-    </div>
+  </div>
 
     <div class="row body_row">
       <div class="col-sm-12 summary_data">
